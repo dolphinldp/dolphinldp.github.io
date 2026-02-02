@@ -50,16 +50,12 @@ import { themes as prismThemes } from "prism-react-renderer";
           src: 'img/logo.svg',
         },
         items: [
-           {
-          label: " About Me",
-          position: "left",
-          to: "docs/aboutme",
-        },
+
         {
           type: "dropdown",
-          label: " Assignments ",
+          label: "小学信息科学实验课程",
           position: "left",
-          className: "navbar_doc_items_2",
+          className: "navbar_doc_items_1",
           to: "docs/assign",
           items: [
             {
@@ -75,7 +71,21 @@ import { themes as prismThemes } from "prism-react-renderer";
         },
         {
           type: "dropdown",
-          label: " Final Project ",
+          label: "初中信息科学实验课程",
+          className: "navbar_doc_items_2",
+          position: "left",
+          to: "docs/final",
+          items: [
+            {
+              label: "Idea ✅",
+              to: "docs/final/01_idea",
+            },
+           
+          ]
+        },
+                {
+          type: "dropdown",
+          label: "高中信息科学实验课程",
           className: "navbar_doc_items_3",
           position: "left",
           to: "docs/final",
@@ -86,6 +96,11 @@ import { themes as prismThemes } from "prism-react-renderer";
             },
            
           ]
+        },
+                   {
+          label: " About Me",
+          position: "left",
+          to: "docs/aboutme",
         },
         {
           href: "https://gitlab.fabcloud.org/academany/fabacademy/2026/labs/chaihuo/students/dolphin-liu",
