@@ -1,0 +1,19 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  script:
+    - npm install
+    - npm i prism-react-renderer   # 补上缺失依赖
+    - npm run build
+    - mv build public
+    # - mv static/res/final/presentation.mp4 public
+    # - mv static/img/final/presentation.png public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main 

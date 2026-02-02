@@ -1,0 +1,22 @@
+# Assign
+
+- **[Week 1 - Project Management ✅](week01/index.md)**
+- **[Week 2 - Computer Aided Design ]
+- **[Week 3 - Computer Controlled Cutting ]
+- **[Week 4 - Embedded Programming ]
+- **[Week 5 - 3D Scanning and Printing ]
+- **[Week 6 - Electronics Design ]
+- **[Week 7 - Computer Controlled Machining ]
+- **[Week 8 - Electronics Production ]
+- **[Week 9 - Input Devices ]
+- **[Week 10 - Output Devices ]
+- **[Week 11 - Networking and Communications ]
+- **[Week 12 - Mechanical Design ]
+- **[Week 13 - Break, Midterm Review ]
+- **[Week 14 - Molding and Casting ]
+- **[Week 15 - Interface and application programming ]
+- **[Week 16 - System Integration ]
+- **[Week 17 - Wildcard Week ]
+- **[Week 18 - Applications and Implications ]
+- **[Week 19 - Invention, Intellectual Property, And Income ]
+- **[Week 20 - Final Project Presentation ]
