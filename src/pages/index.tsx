@@ -27,13 +27,13 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/assign">
-            Assignments
+            中文版
           </Link>
           <span>&nbsp;&nbsp;&nbsp;</span>
           <Link
             className="button button--secondary button--lg"
             to="/docs/final">
-            Final Project
+            English Version
           </Link>
         </div>
       </div>

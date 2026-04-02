@@ -1,4 +1,4 @@
-# 初中信息科技实验
+# English Version
 
 - **[Idea]
 - **[Hardware Desgine]

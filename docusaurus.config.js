@@ -7,7 +7,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: "MicroBlocks使用教程",
+  title: "MicroBlocks STEM Book",
   tagline: '',
   url: 'https://github.com',
   baseUrl: "/",
@@ -53,64 +53,37 @@ import { themes as prismThemes } from "prism-react-renderer";
 
         {
           type: "dropdown",
-          label: "小学信息技术实验",
+          label: "中文版",
           position: "left",
           className: "navbar_doc_items_1",
           to: "docs/assign",
           items: [
             {
-              label: "Week 01 - Project Management ✅",
-              to: "docs/assign/week01",
+              label: " 01 - 开启我的MicroBlocks之旅 ",
+              to: "docs/cn/01",
             },
             {
-              label: "Week 02 - Computer Aided design ",
-              to: "docs/assign/week01",
+              label: " 02 - 点亮创意：灯光与屏幕编程 ",
+              to: "docs/cn/02",
             },
             
           ],
         },
         {
           type: "dropdown",
-          label: "初中信息技术实验",
+          label: "English Version",
           className: "navbar_doc_items_2",
           position: "left",
-          to: "docs/final",
+          to: "docs/en",
           items: [
             {
-              label: "Idea ✅",
-              to: "docs/final/01_idea",
+              label: " 01 - My MicroBlocks Journey",
+              to: "docs/en/chapter01",
             },
            
           ]
         },
-                {
-          type: "dropdown",
-          label: "物理和科学实验",
-          className: "navbar_doc_items_3",
-          position: "left",
-          to: "docs/final",
-          items: [
-            {
-              label: "Idea ✅",
-              to: "docs/final/01_idea",
-            },
-           
-          ]
-        },
-            {
-          type: "dropdown",
-          label: "机器人比赛",
-          className: "navbar_doc_items_3",
-          position: "left",
-          to: "docs/final",
-          items: [
-            {
-              label: "Idea ✅",
-              to: "docs/final/01_idea",
-            },
-           
-          ]
-        },
+              
 
                    {
           label: " About Me",
@@ -121,6 +94,11 @@ import { themes as prismThemes } from "prism-react-renderer";
         {
           href: "https://github.com/dolphinldp",
           label: "GitHub",
+          position: "right",
+        },
+          {
+          href: "https://fabacademy.org/2026/labs/chaihuo/students/dolphin-liu/",
+          label: "FabAcademy",
           position: "right",
         },
         ],
