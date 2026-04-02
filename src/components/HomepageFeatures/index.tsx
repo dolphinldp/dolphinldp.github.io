@@ -6,14 +6,14 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: (
-      <a href="docs/assign/week01/">
+      <a href="docs/cn/01/">
         <div
           className="feature-item"
           style={{
-            backgroundImage: `url(${require('@site/static/img/week01/doc-site.jpg').default})`,
+            backgroundImage: `url(${require('@site/static/img/cn/book_draft.jpg').default})`,
           }}
         >
-          <div className="feature-text">Week 1</div>
+          <div className="feature-text">Book </div>
         </div>
       </a>
     ),

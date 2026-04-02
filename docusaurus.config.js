@@ -56,7 +56,7 @@ import { themes as prismThemes } from "prism-react-renderer";
           label: "中文版",
           position: "left",
           className: "navbar_doc_items_1",
-          to: "docs/assign",
+          to: "docs/cn",
           items: [
             {
               label: " 01 - 开启我的MicroBlocks之旅 ",
