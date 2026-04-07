@@ -17,7 +17,7 @@ hero:
       link: /getting-started
     - theme: alt
       text: GitHub
-      link: https://github.com/Yiov/vitepress-doc
+      link: https://github.com/dolphinldp
     - theme: sponsor
       text: 搭建导航
       link: /nav/

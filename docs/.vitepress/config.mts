@@ -168,7 +168,7 @@ export default defineConfig({
 
     //编辑本页
     editLink: {
-      pattern: 'https://github.com/Yiov/vitepress-doc/edit/main/docs/:path', // 改成自己的仓库
+      pattern: 'https://github.com/dolphinldp/edit/main/docs/:path', // 改成自己的仓库
       text: '在GitHub编辑本页'
     },
 
@@ -340,7 +340,7 @@ export default defineConfig({
 
     //社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Yiov/vitepress-doc' },
+      { icon: 'github', link: 'https://github.com/dolphinldp' },
       { icon: 'twitter', link: 'https://twitter.com/' },
       { icon: 'discord', link: 'https://chat.vitejs.dev/' },
       {

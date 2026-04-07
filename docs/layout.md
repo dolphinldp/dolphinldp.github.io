@@ -587,7 +587,7 @@ function mapImgPath(sponsors: Sponsor[]) {
 :::
 
 
-然后我们将 [赞助商的图片](https://github.com/Yiov/vitepress-doc/tree/main/docs/public/svg) 放入 `public - svg` 文件夹
+然后我们将 [赞助商的图片](https://github.com/dolphinldp/tree/main/docs/public/svg) 放入 `public - svg` 文件夹
 
 
 ```md{6}

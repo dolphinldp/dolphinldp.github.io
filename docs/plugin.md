@@ -781,7 +781,7 @@ export default defineConfig({
 当你切换页面，顶部会显示进度条，使用的是 [@Skyleen77/nprogress-v2](https://github.com/Skyleen77/nprogress-v2)
 
 ::: tip 说明
-本方式由 [Aurorxa](https://github.com/Aurorxa) 提供推送 [#36](https://github.com/Yiov/vitepress-doc/pull/36)
+本方式由 [Aurorxa](https://github.com/Aurorxa) 提供推送 [#36](https://github.com/dolphinldp/pull/36)
 :::
 
 先安装 `nprogress-v2`
