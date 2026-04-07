@@ -1,16 +1,16 @@
 ---
 layout: home
 
-title: VitePress
-titleTemplate: 快速上手中文教程
+title: Home
+titleTemplate: 创客硬件编程最佳工具
 
 hero:
-  name: VitePress
-  text: "快速上手中文教程"
-  tagline: 如果你也想搭建它，那跟我一起做吧
+  name: MicroBlocks
+  text: "创客硬件编程讲师最佳工具"
+  tagline: 如果你也想成为创客讲师，那跟我一起做吧
   image:
     src: /logo.png
-    alt: VitePress
+    alt: Home
   actions:
     - theme: brand
       text: 开始
