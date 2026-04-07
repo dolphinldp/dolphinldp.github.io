@@ -18,23 +18,23 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4  # 从 v3 升级到 v4
         with:
           fetch-depth: 0
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4  # 从 v2 升级到 v4（最新版本）
         with:
-          version: 7
-      - uses: actions/setup-node@v3
+          version: 9  # 建议升级 pnpm 版本到 9.x
+      - uses: actions/setup-node@v4  # 从 v3 升级到 v4
         with:
-          node-version: 16
+          node-version: 20  # 建议升级 Node 版本到 20（16 已接近 EOL）
           cache: pnpm
       - run: pnpm install
       - name: Build
         run: pnpm run docs:build
-      - uses: actions/configure-pages@v2
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/configure-pages@v5  # 从 v2 升级到 v5
+      - uses: actions/upload-pages-artifact@v3  # 从 v1 升级到 v3（关键修复）
         with:
           path: docs/.vitepress/dist
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4  # 从 v1 升级到 v4
