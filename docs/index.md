@@ -1,13 +1,13 @@
 ---
 layout: home
 
-title: Home
-titleTemplate: 创客硬件编程最佳工具
+title: MicroBlocks
+titleTemplate: 创客爱好者最佳工具
 
 hero:
   name: MicroBlocks
-  text: "创客硬件编程讲师最佳工具"
-  tagline: 如果你也想成为创客讲师，那跟我一起做吧
+  text: "创客爱好者最佳工具"
+  tagline: 如果你也想学创客编程，那跟我一起做吧
   image:
     src: /logo.png
     alt: Home
