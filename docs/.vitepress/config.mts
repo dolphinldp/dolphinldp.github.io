@@ -10,8 +10,8 @@ const { rewrites } = await usePosts();
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "VitePress",
-  description: "我的vitpress文档教程",
+  title: "MicroBlocks",
+  description: "我的MicroBlocks",
   rewrites,
 
   // #region fav
@@ -37,11 +37,6 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       link: '/en/',
-    },
-    fr: {
-      label: 'French',
-      lang: 'fr',
-      link: '/fr/',
     }
   },
 
@@ -185,7 +180,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '🍉指南',
+        text: '🍉FabAcademy',
         items: [
           {
             // 分组标题1
@@ -213,19 +208,70 @@ export default defineConfig({
               { text: '多语言', link: '/multi-language' },
               { text: 'DocSearch', link: '/docsearch' },
               { text: '静态部署', link: '/assets' },
-              { text: '样式美化', link: '/style' },
-              { text: '组件', link: '/components' },
-              { text: '布局插槽', link: '/layout' },
-              { text: '插件', link: '/plugin' },
-              { text: '更新及卸载', link: '/update' },
-              { text: '搭建导航', link: '/nav/' },
-              { text: '永久链接', link: '/permalink/' },
+         
             ],
           },
         ],
       },
-      { text: `VitePress ${devDependencies.vitepress.replace('^', '')}`, link: 'https://vitepress.dev/zh/', noIcon: true },
-      { text: '更新日志', link: '/changelog' },
+
+      {
+        text: '🍉MicroBlocks',
+        items: [
+          {
+            // 分组标题1
+            text: '介绍',
+            items: [
+              { text: '前言', link: '/preface' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '基础入门',
+            items: [
+              { text: '屏幕流水灯', link: '/getting-started' },
+              { text: '海龟绘图', link: '/configuration' },
+              { text: '按钮编程', link: '/configuration' },
+            ],
+          },
+          {
+            // 分组标题2
+            text: '输出设备',
+            items: [
+              { text: '音调编程', link: '/getting-started' },
+              { text: 'MIDI编程', link: '/configuration' },
+             
+            ],
+          },
+          {
+            // 分组标题2
+            text: '输入设备',
+            items: [
+              { text: '超声波', link: '/getting-started' },
+              { text: '红外人体检测', link: '/configuration' },
+              { text: '温度湿度', link: '/configuration' },
+            ],
+          },
+          {
+            // 分组标题3
+            text: '进阶玩法',
+            items: [
+              { text: 'Markdown', link: '/markdown' },
+              { text: '团队', link: '/team' },
+              { text: '多语言', link: '/multi-language' },
+              { text: 'DocSearch', link: '/docsearch' },
+              { text: '静态部署', link: '/assets' },
+             
+            ],
+          },
+        ],
+      },
+
+
+
+      // { text: `VitePress ${devDependencies.vitepress.replace('^', '')}`, link: 'https://vitepress.dev/zh/', noIcon: true },
+      // { text: '更新日志', link: '/changelog' },
+
+
     ],
 
 
