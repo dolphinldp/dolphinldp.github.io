@@ -180,12 +180,12 @@ export default defineConfig({
 输入：
 
 ```html
-<video src="/本地视频路径.mp4" controls="controls"></video>
+<!-- <video src="/本地视频路径.mp4" controls="controls"></video> -->
 ```
 
 输出：
 
-<video src="/lol.mp4" controls="controls"></video>
+<!-- <video src="/lol.mp4" controls="controls"></video> -->
 
 
 那在线视频呢，我们可以用 `<iframe>` 标签实现
