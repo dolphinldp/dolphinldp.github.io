@@ -9,6 +9,7 @@ import { usePosts } from './theme/untils/permalink';
 const { rewrites } = await usePosts();
 
 export default defineConfig({
+  ignoreDeadLinks: true,
   lang: 'zh-CN',
   title: "MicroBlocks",
   description: "我的MicroBlocks",
