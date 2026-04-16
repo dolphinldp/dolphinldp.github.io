@@ -256,7 +256,7 @@ export default defineConfig({
 
   themeConfig: {
     //左上角logo
-    logo: '/logo.png',
+    logo: '/microblocks_logo.jpg',
   },
 
 })
@@ -269,7 +269,7 @@ export default defineConfig({
 
   themeConfig: {
     //左上角logo
-    logo: '/logo.png',
+    logo: '/microblocks_logo.jpg',
     siteTitle: false, //标题隐藏 // [!code focus]
   },
 

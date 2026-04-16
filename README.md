@@ -1,9 +1,8 @@
-## VitePress教程
+## Here is dolphin's webpage
 
-有着vuepress的搭建经验，上手还算OK
-
-本文档希望能零基础的友友，提供一些上手经验，让你爱上VitePress
-
+ 
+I use vitepress to build this website.
+ 
 
 ## 访问
 

@@ -1,4 +1,4 @@
-# VitePress搭建个人导航
+# 个人导航
 
 
 ## 简介
@@ -684,7 +684,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '茂茂的站点导航',
+    title: '站点导航',
     items: [
       {
         icon: '/logo.png',
