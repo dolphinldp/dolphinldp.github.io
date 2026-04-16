@@ -522,12 +522,12 @@ export default {
 
 ```md
 <!-- index.md -->
-<xgplayer url="/视频路径.mp4" poster="/封面路径.png" />
+<!-- <xgplayer url="/视频路径.mp4" poster="/封面路径.png" /> -->
 ```
 
 更多的功能，可以自己在 [西瓜播放器的配置](https://h5player.bytedance.com/config/) 中寻找
 
-<xgplayer url="/lol.mp4" poster="/lol.png" />
+<!-- <xgplayer url="/lol.mp4" poster="/lol.png" /> -->
 
 
 
